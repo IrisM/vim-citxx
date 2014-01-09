@@ -1,7 +1,8 @@
 set shiftwidth=2
 set tabstop=2
 set softtabstop=2
-set noexpandtab " Tabs for indention
+set expandtab
+"set noexpandtab " Tabs for indention
 
 set autoindent
 set cindent
@@ -13,7 +14,7 @@ au FileType make set noexpandtab
 
 " Load indentation rules and plugins according to the detected filetype.
 if has("autocmd")
-  filetype plugin indent on
+	filetype plugin indent on
 endif
 
 

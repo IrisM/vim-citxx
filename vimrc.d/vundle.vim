@@ -12,6 +12,10 @@ call vundle#rc()
 " required! 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
+Bundle 'derekwyatt/vim-scala'
 
 filetype plugin indent on     " required!
 
