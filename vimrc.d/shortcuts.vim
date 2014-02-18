@@ -11,3 +11,6 @@ nmap <C-t> :NERDTreeToggle<cr>
 inoremap <C-t> <Esc>:NerdTreeToggle<Cr>I
 
 nmap <leader>vr :vertical<Space>resize<Space>
+
+nmap <leader>s :source $MYVIMRC<cr>
+nmap <leader>e :e $MYVIMRC<cr>
