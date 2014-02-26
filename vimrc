@@ -35,6 +35,10 @@ set lazyredraw  " Don't redraw while executing macros (good performance config)
 
 set relativenumber
 
+syntax on
+filetype on
+au BufNewFile,BufRead *.escript set filetype=erlang
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Navigation
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
