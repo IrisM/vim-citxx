@@ -16,6 +16,7 @@ Bundle 'terryma/vim-multiple-cursors'
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'derekwyatt/vim-scala'
+Bundle 'LargeFile'
 
 filetype plugin indent on     " required!
 
