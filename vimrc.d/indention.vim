@@ -11,6 +11,7 @@ set smartindent
 " Change indention rules for specified file types
 au FileType crontab,fstab set noexpandtab tabstop=8 shiftwidth=8
 au FileType make set noexpandtab
+au FileType erlang set noexpandtab
 
 " Load indentation rules and plugins according to the detected filetype.
 if has("autocmd")

@@ -17,6 +17,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/syntastic'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'LargeFile'
+Bundle 'mhinz/vim-startify'
 
 filetype plugin indent on     " required!
 
