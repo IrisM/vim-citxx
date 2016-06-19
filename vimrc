@@ -2,7 +2,7 @@
 " Automatically load vimrc on change
 autocmd! bufwritepost ~/.vimrc source ~/.vimrc
 
-source ~/.vim/vimrc.d/vundle.vim
+source ~/.vim/vimrc.d/plug.vim
 source ~/.vim/vimrc.d/indention.vim
 source ~/.vim/vimrc.d/appearance.vim
 source ~/.vim/vimrc.d/cyrillic.vim
