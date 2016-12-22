@@ -8,6 +8,7 @@ source ~/.vim/vimrc.d/appearance.vim
 source ~/.vim/vimrc.d/cyrillic.vim
 source ~/.vim/vimrc.d/shortcuts.vim
 source ~/.vim/vimrc.d/plugins.vim
+source ~/.vim/vimrc.d/google_python_style.vim
  
 if has("syntax")
   syntax on
@@ -33,12 +34,19 @@ set ruler  " Show current position
 set hlsearch  " Highlight search results
 set lazyredraw  " Don't redraw while executing macros (good performance config)
 
-set relativenumber
+" set relativenumber
+set nu
 
 syntax on
 filetype on
 au BufNewFile,BufRead *.escript set filetype=erlang
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Max line width line
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+:set colorcolumn=81
+:highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Navigation
